@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Herrera</title>
+    <!-- Incluir los archivos CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        /* Estilo para el encabezado */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 100px 0;
+        }
+
+        /* Estilo para la sección de proyectos */
+        #proyectos {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+        }
+
+        /* Estilo para la sección de habilidades */
+        #habilidades {
+            padding: 100px 0;
+        }
+
+        /* Estilo para la sección de contacto */
+        #contacto {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Santiago Herrera</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1 class="display-4 text-center">¡Bienvenido a mi portafolio!</h1>
+            <p class="lead text-center">Aquí puedes encontrar mis habilidades.</p>
+        </div>
+    </header>
+
+    <!-- Sección de habilidades -->
+    <section id="habilidades">
+        <div class="container">
+            <h2 class="text-center mb-4">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Vendedor</h4>
+                    <p>Como vendedor, tengo una amplia experiencia en el campo de las ventas. Me apasiona interactuar con los clientes y encontrar soluciones que se ajusten a sus necesidades. A lo largo de mi carrera, he desarrollado habilidades sólidas en la identificación de oportunidades de venta, el establecimiento de relaciones sólidas con los clientes y la superación de objetivos de ventas.</p>
+                    <p>Me considero un comunicador efectivo y persuasivo, capaz de presentar productos o servicios de manera convincente. También tengo una gran habilidad para identificar y comprender las necesidades del cliente, lo que me permite adaptar mis enfoques y ofrecer soluciones personalizadas que generan resultados positivos tanto para los clientes como para la empresa.</p>
+                    <p>Además, tengo experiencia en la gestión de carteras de clientes, el seguimiento de oportunidades de ventas y el cierre exitoso de negocios. Siempre estoy buscando nuevas estrategias y enfoques innovadores para impulsar las ventas y lograr resultados excepcionales. Soy una persona orientada a los resultados, perseverante y dispuesta a asumir nuevos desafíos en el campo de las ventas.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Programador</h4>
+                    <p>Como programador, tengo una sólida formación en desarrollo de software y una pasión por la resolución de problemas a través de la programación. Me especializo en el desarrollo de aplicaciones web y móviles, utilizando lenguajes de programación como JavaScript, Python y Java.</p>
+                    <p>Tengo experiencia en el diseño y desarrollo de sistemas robustos, utilizando frameworks y bibliotecas populares como React, Angular y Node.js. He trabajado en proyectos tanto en el lado del cliente como en el lado del servidor, creando interfaces interactivas, implementando lógica empresarial y gestionando bases de datos.</p>
+                    <p>Soy un apasionado de la tecnología y estoy constantemente actualizando mis conocimientos para mantenerme al día con las últimas tendencias y avances en el campo de la programación. Tengo habilidades sólidas en el análisis de requisitos, la resolución de problemas y la colaboración en equipo, lo que me permite contribuir de manera efectiva en proyectos complejos y entornos de desarrollo ágiles.</p>
+                    <p>Además, poseo un enfoque meticuloso en la calidad del código y la implementación de buenas prácticas de desarrollo. Siempre busco la eficiencia y la optimización en mis soluciones, con el objetivo de crear aplicaciones rápidas, seguras y escalables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Información de contacto</h4>
+                    <p>Correo electrónico: sanher0518@gmail.com</p>
+                    <p>Redes sociales:</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/tu_perfil" target="_blank">Facebook</a></li>
+                        <!-- Agrega más enlaces a tus redes sociales si lo deseas -->
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Formulario de contacto</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Incluir los archivos JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
